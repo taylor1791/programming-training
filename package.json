@@ -1,0 +1,12 @@
+{
+  "name": "programming-training-manual",
+  "description": "Problems for practicing your fundamental programming skills",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1"
+  }
+}
