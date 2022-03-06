@@ -1,0 +1,43 @@
+name: CI Suite
+on:
+  push:
+
+jobs:
+  verify_format:
+    name: Verify Format
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install JavaScript Dependencies
+        run: yarn install
+
+      - name: Run prettier
+        run: yarn prettier --check .
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install JavaScript Dependencies
+        run: yarn install
+
+      - name: Run ESLint
+        run: yarn eslint .
+
+  test_suite:
+    name: Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install JavaScript Dependencies
+        run: yarn install
+
+      - name: Run Jest
+        run: yarn jest
