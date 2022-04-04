@@ -1,6 +1,7 @@
 {
-  "name": "programming-training-manual",
+  "name": "programming-training",
   "description": "Problems for practicing your fundamental programming skills",
+  "version": "0.0.0",
   "license": "MIT",
   "dependencies": {
     "jest": "^27.5.1"
