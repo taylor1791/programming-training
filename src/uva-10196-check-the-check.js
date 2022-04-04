@@ -90,7 +90,7 @@ function uva10196(board) {
   let total = 0;
   board.forEach((row) => {
     row.split("").forEach((square) => {
-      total = (total + square.charAt(0)) % 3;
+      total = (total + square.charCodeAt(0)) % 3;
     });
   });
 
