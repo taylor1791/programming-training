@@ -75,6 +75,12 @@ describe("UVA 100033: Interpreter", () => {
     expect(machine.ticks).toBe(3 + 2 * 1000);
   });
 
+  it("RAM is initialized to 000", () => {
+    const machine = runMachine(["293", "899", "100"]);
+
+    expect(machine.registers[9]).toBe(0);
+  });
+
   it("can implement register swap", () => {
     const machine = runMachine(["206", "217", "520", "501", "512", "220", "100"]);
 
