@@ -47,7 +47,6 @@ describe("UVA 100033: Interpreter", () => {
   it("8da sets d to be the value in RAM whose address is in register a", () => {
     const machine = runMachine(["293", "809", "100", "165"]);
 
-    console.log(machine);
     expect(machine.registers[0]).toBe(165);
   });
 
