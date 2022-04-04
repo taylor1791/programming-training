@@ -1,6 +1,6 @@
 var uva10189 = require("../uva-10189-minesweeper");
 
-describe.skip("UVA 10189: Minesweeper", () => {
+describe("UVA 10189: Minesweeper", () => {
   it("returns the field for sample 1", () => {
     const field = "*...\n....\n.*..\n....";
 
