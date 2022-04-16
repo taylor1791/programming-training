@@ -2,7 +2,7 @@
  * @title: Crypt Kicker
  * @uvaId: 843
  * @level: 2
- * @tags: #backtracking
+ * @tags: #backtracking, #cipher
  */
 
 // A common but insecure method of encrypting text is to permute the letters of the
