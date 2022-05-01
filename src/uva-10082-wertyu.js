@@ -2,7 +2,7 @@
  * @title: WERTYU
  * @uvaId: 10082
  * @level: 1
- * @tags: #cipher, #string
+ * @tags: #adhoc, #cipher, #string
  */
 
 // ┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌───┐┌────────┐
